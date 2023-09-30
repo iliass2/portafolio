@@ -18,7 +18,7 @@ function About() {
 function alert(){alert("hello hete");}
   return (
     <>
-      <div className="about" id="about_me">
+      <div className="about">
         <div className="left_about">
           <h1>About me</h1>
           <br></br>
@@ -213,7 +213,9 @@ function alert(){alert("hello hete");}
             Download CV{" "}
           </Button>
         </div>
-        
+        <Compo hola="hello mate">
+          <h1>aver si sale </h1>
+        </Compo>
       </div>
     </>
   );
