@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.be5929ea.css",
+    "main.js": "/portafolio/static/js/main.6c65b41c.js",
+    "static/js/787.93c0ff9f.chunk.js": "/portafolio/static/js/787.93c0ff9f.chunk.js",
+    "static/media/img1.png": "/portafolio/static/media/img1.b4c7efc854916db1d487.png",
+    "static/media/yo.png": "/portafolio/static/media/yo.c14dd15d9def63332125.png",
+    "static/media/webscrapping.jpg": "/portafolio/static/media/webscrapping.27528d52cf7843b63575.jpg",
+    "static/media/ecom.jpg": "/portafolio/static/media/ecom.39952a8fd702926fe8d1.jpg",
+    "static/media/gtaxiClient.jpeg": "/portafolio/static/media/gtaxiClient.4343afb1fa9d73efd2af.jpeg",
+    "static/media/your-iptv.jpg": "/portafolio/static/media/your-iptv.cbf88d7550d9446a7744.jpg",
+    "static/media/gtaxiDriver.jpeg": "/portafolio/static/media/gtaxiDriver.38c0e6bf894be8e8f797.jpeg",
+    "static/media/ecom2.jpeg": "/portafolio/static/media/ecom2.c3feeb2e4dfdcfdec7ea.jpeg",
+    "static/media/gtaxi.jpg": "/portafolio/static/media/gtaxi.9414d97595fcccb4ec2a.jpg",
+    "index.html": "/portafolio/index.html",
+    "main.be5929ea.css.map": "/portafolio/static/css/main.be5929ea.css.map",
+    "main.6c65b41c.js.map": "/portafolio/static/js/main.6c65b41c.js.map",
+    "787.93c0ff9f.chunk.js.map": "/portafolio/static/js/787.93c0ff9f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be5929ea.css",
+    "static/js/main.6c65b41c.js"
+  ]
+}
