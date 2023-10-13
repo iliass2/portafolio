@@ -20,7 +20,7 @@ export function Projects() {
   };
   return (
     
-    <Container className="projects" fluid="true">
+    <Container  id="projects" className="projects" fluid="true">
       <h1>Projects</h1>
     
       <Row style={{ justifyContent: "center",padding:"2vh"  }} xs={2} md={4} className="g-4">
