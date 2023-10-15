@@ -9,10 +9,11 @@ function centro() {
         <div className="who_am_i">
           <h1 className="who_text"> Who am i ?</h1>
           <p className="description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit fuga
-            eius, deserunt molestiae rem dolorem aperiam doloremque sit, tenetur
-            impedit quos dolor et officiis fugit animi ipsam temporibus quia
-            ullam!
+            Hi, I'm Acharki Ilyass, a passionate and versatile full-stack developer
+            with a strong background in web and software development. With a
+            deep love for coding and a commitment to staying updated with the
+            latest technologies, I thrive in creating efficient, user-friendly,
+            and visually appealing web applications.
           </p>
         </div>
       </header>

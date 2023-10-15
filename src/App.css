@@ -72,8 +72,9 @@
   padding-top: 4vh;
   padding-right: 2vw;
 }
-
-*/ .me-auto {
+.swiper{
+}
+.me-auto {
   float: right;
   color: #61dafb;
 }
@@ -81,10 +82,7 @@
 .App-link {
   color: #61dafb;
 }
-.swiper {
-  width: 80%;
-  height: 80%;
-}
+
 .images {
   height: 100%;
   width: 100%;
@@ -105,13 +103,13 @@
   padding-left: 4vw;
   padding-top: 4vh;
   padding-right: 2vw;
-  display: grid;
-  justify-content: space-between;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .icons {
-  display: list-item;
+  
+margin-left: 10%;
+margin-top: 3vh;
 }
 .icons svg {
   width: 100px;
@@ -215,7 +213,7 @@
 background: linear-gradient(0deg, rgba(255,186,33,0.3785889355742297) 0%, rgba(255,186,33,1) 100%);
 }
 } 
- */
+
 
 .card-body {
   /*    background-color: #424242;
@@ -230,10 +228,7 @@ background: linear-gradient(0deg, rgba(255,186,33,0.3785889355742297) 0%, rgba(2
 @media (max-width: 767px) {
 }
 
-.card-img-top {
-  /*  width: 80vw;
-  height: 50px; */
-}
+
 
 @media only screen and (max-width: 455px) {
   .icons svg {
