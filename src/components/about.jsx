@@ -25,22 +25,22 @@ function About() {
     const right_div = document.getElementsByClassName("right_about");
   }
   const icons = [icon1, icon2, icon4, icon3, icon5, icon1, icon1];
-
+  const cv_url="https://drive.google.com/file/d/1jLzZC-h-7r7Sj3v9eeSXSXa7WkxetGss/view?usp=sharing";
   const images = [
     foto2,
     foto1,
     "https://images.unsplash.com/photo-1445964047600-cdbdb873673d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1156&q=80",
     "https://images.unsplash.com/photo-1445964047600-cdbdb873673d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1156&q=80",
-  ];
+  ];  
   if (!is_phone) {
     return (
-      <Container className="about" fluid>
+      <Container id="about" className="about" fluid>
         <Row>
           <Col>
-            <Row>
+            <Row style={{ marginTop: "5vh" }}>
               <h1>About me</h1>
               <br></br>
-              <p style={{marginTop:"10vh"}}>
+              <p style={{ marginTop: "10vh" }}>
                 23 years old, of Moroccan nationality, ability to speak English,
                 Spanish, Arabic and French. I obtained my bachelor's degree in
                 2018 in which I was able to get the best grade in the province,
@@ -50,30 +50,29 @@ function About() {
               </p>
             </Row>
             <Row style={{}}>
-              <Col style={{textAlign:"center"}}>
-              <Button
-                variant="outline-primary"
-                size="lg"
-                style={{
-                  width: "25vw",
-                  marginTop:"10vh",
-                  
-                }}
-                onClick={() => {
-                  window.location.replace(
-                    "https://drive.google.com/file/d/1jLzZC-h-7r7Sj3v9eeSXSXa7WkxetGss/view?usp=drive_link"
-                  );
-                }}
-              >
-                Download CV{" "}
-              </Button>{" "}
+              <Col style={{ textAlign: "center" }}>
+                <Button
+                  variant="outline-primary"
+                  size="lg"
+                  style={{
+                    width: "25vw",
+                    marginTop: "10vh",
+                  }}
+                  onClick={() => {
+                    window.open(
+                      cv_url
+                    );
+                  }}
+                >
+                  Download CV{" "}
+                </Button>
               </Col>
             </Row>
           </Col>
           <Col>
             <Row>
               <Row>
-                <h1>Archievements</h1>
+                <h1 style={{ marginTop: "5vh" }}>Archievements</h1>
               </Row>
               <Row
                 style={{ width: windowSize.current[0] / 2, marginTop: "10%" }}
@@ -86,10 +85,15 @@ function About() {
         <Row>
           <Col>
             <Row>
-              <h1 style={{ paddingLeft: "5vw" }}>Skills</h1>
+              <h1 style={{ paddingLeft: "5vw", paddingTop: "3vh" }}>Skills</h1>
             </Row>
-            <Row style={{ width: "100vw", height: "20vh" }}>
-              <Swiperhere class_img="icons" how_much={5} images={icons} />
+            <Row style={{ width: windowSize.current[0] / 1.2, height: "20vh" }}>
+              <Swiperhere
+                scrollbar="False"
+                class_img="icons"
+                how_much={5}
+                images={icons}
+              />
             </Row>
           </Col>
         </Row>
@@ -98,7 +102,7 @@ function About() {
   } else {
     return (
       <Container className="about" fluid>
-        <Row>
+        <Row style={{ paddingTop: "3vh" }}>
           <Col>
             <h1>About me</h1>
             <br></br>
@@ -123,8 +127,8 @@ function About() {
                 justifyContent: "center",
               }}
               onClick={() => {
-                window.location.replace(
-                  "https://drive.google.com/file/d/1jLzZC-h-7r7Sj3v9eeSXSXa7WkxetGss/view?usp=drive_link"
+                window.open(
+                  cv_url
                 );
               }}
             >
@@ -135,17 +139,24 @@ function About() {
         <Row>
           <Col>
             <Row>
-              <Row>
+              <Row style={{ paddingTop: "3vh" }}>
                 <h1>Archievements</h1>
               </Row>
               <Row
                 style={{
                   width: windowSize.current[0],
+
                   marginTop: "10%",
                   paddingLeft: "10%",
                 }}
               >
-                <Swiperhere class_img={"images"} images={images} how_much={1} />
+                <Swiperhere
+                  scrool_enabled={false}
+                  style={{ height: "22px" }}
+                  class_img="images"
+                  images={images}
+                  how_much={1}
+                />
               </Row>
             </Row>
           </Col>
@@ -153,7 +164,7 @@ function About() {
         <Row>
           <Col>
             <Row>
-              <h1 style={{ paddingLeft: "5vw" }}>Skills</h1>
+              <h1 style={{ paddingLeft: "5vw",paddingTop:"3vh" }}>Skills</h1>
             </Row>
             <Row style={{ width: "100vw", height: "20vh" }}>
               <Swiperhere class_img="icons" how_much={5} images={icons} />

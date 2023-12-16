@@ -1,3 +1,7 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .App {
   text-align: center;
 }
@@ -72,8 +76,7 @@
   padding-top: 4vh;
   padding-right: 2vw;
 }
-.swiper{
-}
+
 .me-auto {
   float: right;
   color: #61dafb;
@@ -239,6 +242,9 @@ background: linear-gradient(0deg, rgba(255,186,33,0.3785889355742297) 0%, rgba(2
     margin-right: 0%;
     margin-left: 0%;
     height: 29%;
+  }
+  .images img{
+    height: 30vh;
   }
   .who_am_i {
     left: 0;
