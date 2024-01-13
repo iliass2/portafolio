@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.62414adf.css",
-    "main.js": "/portafolio/static/js/main.f0ff309a.js",
+    "main.css": "/portafolio/static/css/main.918ae67d.css",
+    "main.js": "/portafolio/static/js/main.8cbd0a75.js",
     "static/js/787.93c0ff9f.chunk.js": "/portafolio/static/js/787.93c0ff9f.chunk.js",
     "static/media/img1.png": "/portafolio/static/media/img1.b4c7efc854916db1d487.png",
     "static/media/yo.png": "/portafolio/static/media/yo.c14dd15d9def63332125.png",
@@ -12,13 +12,15 @@
     "static/media/gtaxiDriver.jpeg": "/portafolio/static/media/gtaxiDriver.38c0e6bf894be8e8f797.jpeg",
     "static/media/ecom2.jpeg": "/portafolio/static/media/ecom2.c3feeb2e4dfdcfdec7ea.jpeg",
     "static/media/gtaxi.jpg": "/portafolio/static/media/gtaxi.9414d97595fcccb4ec2a.jpg",
+    "static/media/github.png": "/portafolio/static/media/github.f11021803f68852df283.png",
+    "static/media/linkedin.png": "/portafolio/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/portafolio/index.html",
-    "main.62414adf.css.map": "/portafolio/static/css/main.62414adf.css.map",
-    "main.f0ff309a.js.map": "/portafolio/static/js/main.f0ff309a.js.map",
+    "main.918ae67d.css.map": "/portafolio/static/css/main.918ae67d.css.map",
+    "main.8cbd0a75.js.map": "/portafolio/static/js/main.8cbd0a75.js.map",
     "787.93c0ff9f.chunk.js.map": "/portafolio/static/js/787.93c0ff9f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62414adf.css",
-    "static/js/main.f0ff309a.js"
+    "static/css/main.918ae67d.css",
+    "static/js/main.8cbd0a75.js"
   ]
 }
