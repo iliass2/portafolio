@@ -4,6 +4,7 @@ import BasicExample from "./components/navbar.jsx";
 import Centro from "./components/centro.jsx";
 import About from "./components/about";
 import { Projects } from "./components/projects";
+import Footer from "./components/footer.jsx";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <Centro />
       <About/>
       <Projects/>
+      <Footer/>
     </>
   );
 }

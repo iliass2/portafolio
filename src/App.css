@@ -24,6 +24,7 @@ html, body {
   background-image: url(./assets/yo.png);
   background-repeat: no-repeat;
   background-position: 0;
+  
   background-size: 100vh;
   min-height: 100vh;
   display: flex;
@@ -52,7 +53,7 @@ html, body {
   right: 0;
   position: absolute;
   text-align: center;
-  padding-top: 40vh;
+  padding-top: 10vh;
   padding-right: 2vw;
 }
 
